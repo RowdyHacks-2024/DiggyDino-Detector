@@ -6,7 +6,7 @@ def createStringJSON(data: list) -> str:
         "user_id": 1,
         "detector_id":1,
         "temperature": float(data[0]),
-        "pressure": int(data[1]),
+        "pressure": float(data[1]),
         "altitude": float(data[2])
     }
     
