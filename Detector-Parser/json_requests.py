@@ -7,8 +7,8 @@ API_URI = getenv("API_URI")
 API_KEY = getenv("API_KEY")
 
 # Make sure variables are set
-# assert API_KEY is not None
-# assert API_URI is not None
+assert API_KEY is not None
+assert API_URI is not None
 
 # Set the headers to indicate that you're sending JSON data
 HEADERS = {'Content-Type': 'application/json'}

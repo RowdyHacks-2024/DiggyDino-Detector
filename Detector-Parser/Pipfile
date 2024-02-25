@@ -11,3 +11,6 @@ requests="*"
 
 [requires]
 python_version = "3.10"
+
+[scripts]
+start_parser = "python main.py"
